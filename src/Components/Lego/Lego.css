@@ -1,0 +1,26 @@
+.lego_container {
+  width: 308px;
+  height: 368px;
+  padding: 14px 13.5px 19px 13.5px;
+  background: transparent
+    linear-gradient(140deg, #fff7fc66 0%, #ffffff66 0%, #ffffff00 100%);
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border-radius: 30px;
+  opacity: 1;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  display: grid;
+  align-content: space-between;
+}
+
+.lego_container video {
+  border-radius: 23px;
+}
+
+.lego_container .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  color: #fceff9;
+}

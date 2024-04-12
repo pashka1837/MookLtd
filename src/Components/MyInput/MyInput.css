@@ -1,0 +1,18 @@
+.myInput {
+  width: 251px;
+  height: 55px;
+  background: #fceff9 0% 0%;
+  box-shadow: 0px 0px 20px #08070880;
+  border: 2px solid #080708;
+  border-radius: 30px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: TestSohne, sans-serif;
+}
+
+.myInput::placeholder {
+  color: #080708;
+  opacity: 0.5;
+  font-size: 25px;
+  font-family: TestSohne, sans-serif;
+}

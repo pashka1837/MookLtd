@@ -1,0 +1,22 @@
+.footer {
+  height: 153px;
+  background: #fceff9;
+  border-radius: 50px 50px 0px 0px;
+
+  display: grid;
+  justify-items: start;
+  align-content: space-between;
+  padding: 31px 48px 30px 48px;
+}
+
+.footer h3 {
+  font-family: SF Pro R, sans-serif;
+  color: #080708;
+  font-size: 20px;
+}
+
+.footer p {
+  font-family: SF Pro T, sans-serif;
+  color: #080708;
+  font-size: 20px;
+}

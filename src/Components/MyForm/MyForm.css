@@ -1,0 +1,18 @@
+.signin_form {
+  display: grid;
+  justify-items: center;
+  gap: 22px;
+}
+
+.signin_submit_btn {
+  margin-top: 22px;
+  width: 169px;
+  height: 55px;
+  background: #00cc99;
+  border-style: none;
+  box-shadow: 0px 0px 20px #08070880;
+  border-radius: 30px;
+  font-size: 25px;
+  font-family: TestSohne, sans-serif;
+  color: #fff7fc;
+}

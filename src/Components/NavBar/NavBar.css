@@ -1,0 +1,29 @@
+.navbar {
+  background: #fceff9;
+  border-radius: 0px 0px 50px 50px;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 34px;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #080708;
+  font-size: 35px;
+}
+
+.open_signin {
+  width: 98px;
+  height: 36px;
+  background: #fceff9 0% 0%;
+  box-shadow: 0px 0px 10px #6600ff66;
+  border: 2px solid #6600ff;
+  border-radius: 50px;
+  color: #6600ff;
+  font-family: TestSohne, sans-serif;
+  font-size: 19px;
+}

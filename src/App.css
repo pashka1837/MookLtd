@@ -1,0 +1,13 @@
+.landing {
+  display: grid;
+  background: transparent linear-gradient(180deg, #6600ff 0%, #00cc99 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.main_landing {
+  margin: 43px 0;
+
+  display: grid;
+  place-items: center;
+  gap: 43px;
+}
