@@ -1,13 +1,41 @@
-.landing {
+.landing_page {
   display: grid;
   background: transparent linear-gradient(180deg, #6600ff 0%, #00cc99 100%) 0%
     0% no-repeat padding-box;
 }
 
 .main_landing {
-  margin: 43px 0;
+  /* margin: 43px 0; */
+  margin: 123px 0;
 
   display: grid;
   place-items: center;
   gap: 43px;
+}
+
+.select_page_bg {
+  height: 100dvh;
+  background: linear-gradient(76deg, #6600ff 0%, #00cc99 40% 100%);
+}
+
+.select_page {
+  padding: 52px 30px;
+  height: 100%;
+  backdrop-filter: blur(50px);
+  display: grid;
+  justify-items: center;
+  gap: 50px;
+}
+
+.select_page video {
+  background: #eee5e900;
+  box-shadow: inset 3px 3px 6px #eee5e9;
+  border: 3px solid #eee5e9;
+  border-radius: 20px;
+}
+
+.select_btns_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,0 +1,14 @@
+.back_btn {
+  justify-self: start;
+  width: 184px;
+  height: 55px;
+  background: #fceff9;
+  border-style: none;
+  box-shadow: 0px 0px 20px #08070880;
+  border-radius: 30px;
+
+  font-family: TestSohne, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #080708;
+}

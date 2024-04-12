@@ -7,7 +7,7 @@ import Footer from "../Components/Footer/Footer";
 export default function Landing() {
   const [isOpen, setOpen] = useState<boolean>(false);
   return (
-    <div className="landing">
+    <div className="landing_page">
       <NavBar setOpen={setOpen} />
       <SignIn setOpen={setOpen} isOpen={isOpen} />
       <div className="main_landing">

@@ -1,7 +1,12 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: #fceff9;
   border-radius: 0px 0px 50px 50px;
   height: 80px;
+  z-index: 9;
 
   display: flex;
   justify-content: space-between;
