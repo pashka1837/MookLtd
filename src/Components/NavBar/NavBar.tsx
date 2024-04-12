@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import "./NavBar.css";
-export default function NavBar({
-  setOpen,
-}: {
-  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
-}) {
+import useStore from "../../feature/store";
+export default function NavBar() {
+  const { setLoginPopUp, isLogedIn } = useStore();
   const [curPos, setPos] = useState<ScrollStateT>({ scroll: 0, top: 0 });
   useEffect(() => {
     function handleScroll() {
@@ -24,13 +22,15 @@ export default function NavBar({
   return (
     <div className="navbar" style={{ top: `${curPos.top}px` }}>
       <h2 className="logo">OneAI</h2>
-      <button
-        onClick={() => setOpen(true)}
-        className="open_signin"
-        type="button"
-      >
-        Sign in
-      </button>
+      {!isLogedIn && (
+        <button
+          onClick={() => setLoginPopUp(true)}
+          className="open_signin"
+          type="button"
+        >
+          Sign in
+        </button>
+      )}
     </div>
   );
 }

@@ -1,15 +1,14 @@
+import useStore from "../../feature/store";
 import MyInput from "../MyInput/MyInput";
 import "./MyForm.css";
-export default function MyForm({
-  setOpen,
-}: {
-  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
-}) {
+export default function MyForm() {
+  const { setLoginPopUp, setLogin } = useStore();
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
     form.reset();
-    setOpen(false);
+    setLoginPopUp(false);
+    setLogin(true);
   }
   return (
     <form className="signin_form" action="post" onSubmit={handleSubmit}>
