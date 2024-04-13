@@ -1,3 +1,5 @@
+/* Landing page */
+
 .landing_page {
   display: grid;
   background: transparent linear-gradient(180deg, #6600ff 0%, #00cc99 100%) 0%
@@ -5,25 +7,17 @@
 }
 
 .main_landing {
-  /* margin: 43px 0; */
   margin: 123px 0;
-
   display: grid;
   place-items: center;
   gap: 43px;
 }
 
-.select_page_bg {
-  height: 100dvh;
-  background: linear-gradient(76deg, #6600ff 0%, #00cc99 40% 100%);
-}
-
+/* Select page */
 .select_page {
-  padding: 52px 30px;
-  height: 100%;
-  backdrop-filter: blur(50px);
   display: grid;
   justify-items: center;
+  padding: 52px 30px;
   gap: 50px;
 }
 
@@ -38,4 +32,48 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+/* Save page */
+.save_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 49px 65px;
+  gap: 40px;
+}
+
+.save_page img {
+  width: 244px;
+  height: 529px;
+  box-shadow: 0px 0px 10px #5fbb9780;
+  border-radius: 50px;
+}
+.save_page .btn_container {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+
+.save_btn {
+  width: 244px;
+  height: 65px;
+  border-style: none;
+  background: #00cc99;
+  box-shadow: 0px 0px 20px #080f0fbf;
+  border-radius: 50px;
+  font: normal normal normal 27px/36px TestSohne;
+  color: #fff7fc;
+}
+
+.more_pics_btn {
+  width: 190px;
+  height: 65px;
+  background: #fceff9;
+  border-style: none;
+  box-shadow: 0px 0px 20px #080f0f80;
+  border-radius: 50px;
+  text-align: center;
+  font: normal normal normal 27px/36px TestSohne;
+  color: #080708;
 }

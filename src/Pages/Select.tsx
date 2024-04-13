@@ -6,8 +6,8 @@ import { faCamera } from "@fortawesome/free-solid-svg-icons";
 
 export default function Select() {
   return (
-    <div className="select_page_bg">
-      <div className="select_page">
+    <div className="linear_bg">
+      <div className="select_page blur_bg">
         <BackBtn />
         <VideoOutput width={315} height={315} />
         <div className="select_btns_container">
